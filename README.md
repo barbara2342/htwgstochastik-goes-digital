@@ -12,3 +12,6 @@ contains four MATLAB files for quickstarting stochastic calculations
 
 ### quickstart_python
 contains five Python files and a csv files for quickstarting stochastic calculations
+
+## Please note
+The files contained in the quickstart directories are mere quick and dirty scripts suitable for understanding the basic functionalities of MATLAB and Python. For great tutorials and examples, ask your favourite search machine or have a look at the sources linked in the Moodle course. 
