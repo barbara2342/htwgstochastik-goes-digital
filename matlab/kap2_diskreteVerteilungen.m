@@ -63,7 +63,7 @@ disp(' ');
 disp('Die unzuverlässige Popcornmaschine (Poisson)');
 disp(' ');
 
-Z = makedist('Poisson',3)
+Z = makedist('Poisson','lambda',3)
 
 P_Zgleich0 = Z.pdf(0)
 P_Zgeich2 = Z.pdf(2)
@@ -97,6 +97,7 @@ P_Igleich10 = hygepdf(10,M,K,N)
 P_Igleich9oder10 = sum(hygepdf(9:10,M,K,N))
 P_Igleich7 = hygepdf(7,M,K,N)
 [E_I, Var_I] = hygestat(M,K,N)
+
 
 
 
